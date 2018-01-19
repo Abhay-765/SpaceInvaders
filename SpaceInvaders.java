@@ -288,9 +288,9 @@ void stop()
 }
  }
  }
-//
+
 Alien sub class
-//
+
 
 public class Alien{
   PImage a;
@@ -305,7 +305,7 @@ public class Alien{
 
   }
 }
-//
+
 Shot sub class
 public class Shot{
   PImage s;
@@ -319,5 +319,5 @@ public class Shot{
     s=loadImage("shot.png");
   }
 }
-//
+
 
