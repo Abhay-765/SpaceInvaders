@@ -43,7 +43,7 @@ void setup()//initialize variables
   shooterX=300;
  
   shooter=loadImage("shooter.png");
-    f = createFont("Arial",16,true); // STEP 3 Create Font
+    f = createFont("Arial",16,true); // Create Font
   
   for(int i=0; i<6; i++){
     if(i==6){
@@ -193,11 +193,10 @@ void keyReleased(){
     moveRight=false;
     moveLeft=false;
   
-  //meeee
+
 }
 
 void checkForHit(int ax,int ay, int anum){
-  //
   if(shot.size()>0){
     for(int i=0; i<shot.size(); i++){
       Shot myShot=shot.get(i);
@@ -267,7 +266,7 @@ void dropDown(){
 
 void stop()
 {
-  // always close Minim audio classes when you are done with them
+  // always close Minim audio classes when you are done 
   player.close();
   minim.stop();
  
